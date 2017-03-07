@@ -1,3 +1,0 @@
-# Vehicle Detection
-
-> IN PROGRESS... 
