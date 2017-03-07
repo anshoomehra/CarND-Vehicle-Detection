@@ -13,7 +13,7 @@ The goals / steps of this project are the following:
 * Estimate a bounding box for vehicles detected.
 
 ---
-Special Thanks to Milutin Nikolic, reference to his work as suggested by mentor in past project helped me improve performance of my code and also helped me with new ideas achieving targets.
+Special Thanks to Milutin, reference to his work as suggested by my reviewer in past project helped me improve performance of my code and also helped me with new ideas achieving targets.
 
 
 ###Histogram of Oriented Gradients (HOG)
