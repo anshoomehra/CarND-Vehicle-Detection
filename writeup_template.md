@@ -83,15 +83,13 @@ Sample of output is as listed below:
 ### Video Implementation
 
 ####1. Link to your final video output.
-![alt text](output_videos/cars_project_video.mp4)
-![alt text](output_videos/cars_test_video.mp4)
+![Project Video](output_videos/cars_project_video.mp4)
+![Test Video](output_videos/cars_test_video.mp4)
 
 
 ####2. Describe how (and identify where in your code) you implemented some kind of filter for false positives and some method for combining overlapping bounding boxes.
 
 I recorded the positions of positive detections in each frame of the video.  From the positive detections I created a heatmap and then thresholded that map to identify vehicle positions.  I then used `scipy.ndimage.measurements.label()` to identify individual blobs in the heatmap.  I then assumed each blob corresponded to a vehicle.  I constructed bounding boxes to cover the area of each blob detected.  
-
-Code Block:53
 
 Samples Images:
 ![alt text](output_images/heat1.png)
@@ -100,6 +98,9 @@ Samples Images:
 ![alt text](output_images/heat4.png)
 ![alt text](output_images/heat5.png)
 ![alt text](output_images/heat6.png)
+
+
+
 
 ---
 
