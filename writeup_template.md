@@ -35,20 +35,27 @@ Here is an example using the `LUV` color space and HOG parameters of `orientatio
 
 ####2. Explain how you settled on your final choice of HOG parameters.
 
-I tried various combinations of parameters as demostrated in Cell 105 and post trail 128 bins, orientation 8, prixels/cell=8 and cells per block 2 gave me the best result.
+I tried various combinations of parameters as demostrated in Cell 105 and post trial 128 bins, orientation 8, prixels/cell=8 and cells per block 2 gave me the best result.
 
 ####3. Describe how (and identify where in your code) you trained a classifier using your selected HOG features (and color features if you used them).
 
-I trained a SVM (Linear) as show in cell 123. It was trained on test data provided by Udacity with Accuracy Score of 99.72. Features were extracted using HOG, Color and Spatail Bins. 
+I trained a SVM (Linear) as show in cell 123. It was trained on test data provided by Udacity with Accuracy Score of 99.72. Features were extracted using HOG, Color and Spatial Bins. 
 
 Results:
 Reading Data from Sub Directory:  GTI_Far
+
 Reading Data from Sub Directory:  GTI_Left
+
 Reading Data from Sub Directory:  GTI_MiddleClose
+
 Reading Data from Sub Directory:  GTI_Right
+
 Reading Data from Sub Directory:  KITTI_extracted
+
 Reading Data from Sub Directory:  Extras
+
 Reading Data from Sub Directory:  GTI
+
 
 Accuracy Score 0.997184684685
 
@@ -66,9 +73,13 @@ Below is the sample demonstrating on various scales come in play while scanning.
 ####2. Show some examples of test images to demonstrate how your pipeline is working.  What did you do to optimize the performance of your classifier?
 
 Below optimizations helped me achieve better results with minimum false positives:
+
 1. Color Space Choice as LUV, instead of YCrCb
+
 2. Combining HOG, with Color and Spatian Bin than just trying alone HOG.
+
 3. Spatial Bin Size from 64 to 128. 
+
 
 Sample of output is as listed below:
 
