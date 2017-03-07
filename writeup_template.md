@@ -31,7 +31,7 @@ I then explored different color spaces and different `skimage.hog()` parameters 
 Here is an example using the `LUV` color space and HOG parameters of `orientations=8`, `pixels_per_cell=(8, 8)` and `cells_per_block=(2, 2)`:
 
 
-![alt text][output_images/feature_extract.png]
+![alt text](output_images/feature_extract.png)
 
 ####2. Explain how you settled on your final choice of HOG parameters.
 
@@ -61,7 +61,7 @@ I followed farthest and nearest scaling concept shared during training, i.e. nea
 
 Below is the sample demonstrating on various scales come in play while scanning. 
 
-![alt text][output_images/window_plot.png]
+![alt text](output_images/window_plot.png)
 
 ####2. Show some examples of test images to demonstrate how your pipeline is working.  What did you do to optimize the performance of your classifier?
 
@@ -72,12 +72,12 @@ Below optimizations helped me achieve better results with minimum false positive
 
 Sample of output is as listed below:
 
-![alt text][output_images/test1.jpg]
-![alt text][output_images/test2.jpg]
-![alt text][output_images/test3.jpg]
-![alt text][output_images/test4.jpg]
-![alt text][output_images/test5.jpg]
-![alt text][output_images/test6.jpg]
+![alt text](output_images/test1.jpg)
+![alt text](output_images/test2.jpg)
+![alt text](output_images/test3.jpg)
+![alt text](output_images/test4.jpg)
+![alt text](output_images/test5.jpg)
+![alt text](output_images/test6.jpg)
 ---
 
 ### Video Implementation
@@ -94,12 +94,12 @@ I recorded the positions of positive detections in each frame of the video.  Fro
 Code Block:53
 
 Samples Images:
-![alt text][output_images/heat1.png]
-![alt text][output_images/heat2.png]
-![alt text][output_images/heat3.png]
-![alt text][output_images/heat4.png]
-![alt text][output_images/heat5.png]
-![alt text][output_images/heat6.png]
+![alt text](output_images/heat1.png)
+![alt text](output_images/heat2.png)
+![alt text](output_images/heat3.png)
+![alt text](output_images/heat4.png)
+![alt text](output_images/heat5.png)
+![alt text](output_images/heat6.png)
 
 ---
 
